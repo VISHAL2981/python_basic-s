@@ -1,6 +1,6 @@
-def findarea(r):
-    pi=3.14
-    return pi*(r*r)
-    
-print("The area of circle",findarea(5))
+def findarea(pi,r):
+   
+    area=pi*(r*r)
+    print("The area of circle",area)
 
+findarea(3.14,2)
